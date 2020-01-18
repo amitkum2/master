@@ -1,0 +1,290 @@
+    1  git branch
+    2  git checkout -b developer_branch
+    3  git branch
+    4  git checkout master
+    5  git checkout developer_branch
+    6  ls
+    7  git log
+    8  vi index2.html
+    9  git add index.html
+   10  git commit -m "2nd file in 2nd branch"
+   11  ls
+   12  cat index2.html
+   13  git branch master
+   14  git checkout master
+   15  ls 
+   16  cat index2.html
+   17  git checkout development_branch
+   18  git branch
+   19  git checkout developer_branch
+   20  git checkout developer_branch
+   21  git checkout master
+   22  ls
+   23  cat index2.html
+   24  git branch
+   25  git checkout developer_branch
+   26  ls
+   27  git branch
+   28  vi index2.html
+   29  cat index2.html
+   30  git branch
+   31  git add index2.html
+   32  git commit -m "2nd time"
+   33  git checkout master
+   34  ls
+   35  cat index2.html
+   36  git checkout master
+   37  vi index2.html
+   38  yum install git -y
+   39  git --version
+   40  clear
+   41  git --version
+   42  git --version
+   43  git --version
+   44  git --version
+   45  clear
+   46  date
+   47  calender
+   48  calendar
+   49  calander
+   50  clear
+   51  who
+   52  w
+   53  ip
+   54  clear
+   55  pwd
+   56  mkdir GIT
+   57  ls
+   58  cd GIT
+   59  git init
+   60  vi index.html
+   61  git status
+   62  git log
+   63  git add index.html
+   64  git status
+   65  git commit -m "Creating a file index.html"
+   66  git status
+   67  git status
+   68  history
+   69  git log
+   70  git init
+   71  git log
+   72  ls
+   73  cd GIT
+   74  git log
+   75  git show 90a73db0f177e704cf4db99348337dfc87615a66
+   76  git show 90a73db0f177e704cf4db99348337dfc87615a66
+   77  git config user.email "amitkr9894@gmail.com"
+   78  git config user.name "Amit"
+   79  vi index.html
+   80  git add index.html
+   81  git commit -m "edited file"
+   82  git log
+   83  git show f6f0412088368b1eafa761ac534ef7cfb3c1fd7d
+   84  vi index2.html
+   85  git add index2.html
+   86  git commit -m "2nd File"
+   87  git status
+   88  git log
+   89  git init
+   90  ls
+   91  cd GIT
+   92  ls
+   93  git branch
+   94  cat index2.html
+   95  git checkout developer_branch
+   96  git status
+   97  git branch
+   98  git commit
+   99  git add index2.html
+  100  git commit
+  101  git commit -m "Changes in 2nd file in master to check confilct"
+  102  git checkout developer_branch 
+  103  ls
+  104  cd index2.html
+  105  cat index2.html
+  106  git branch
+  107  vi index2.html
+  108  vi index3.html
+  109  git add "index3.html"
+  110  git commit
+  111  git commit "3rd file in dev branch"
+  112  git commit -m "3rd file in dev branch"
+  113  ls
+  114  git status
+  115  ls -a
+  116  git log
+  117  git checkout master
+  118  vi index3.html
+  119  git add "index3.html"
+  120  git commit -m "3rd file in master branch"
+  121  git log
+  122  git checkout master
+  123  git merge developer_branch 
+  124  cat index3.html
+  125  vi index3.html
+  126  vi index2.html
+  127  git add index2.html
+  128  git add index3.html
+  129  git commit -m "Resolving conflict"
+  130  git log
+  131  git checkout developer_branch 
+  132   git config --global color.ui auto
+  133  git branch'
+  134  git branch
+  135  ls
+  136  cat index3.html
+  137  git pull
+  138  git pull master
+  139  hi
+  140  git status
+  141  rm .index2.html.swp
+  142  git status
+  143  git checkout master
+  144  git remote add git_amit https://github.com/amitkum2/Devops_Jan.git
+  145  git push -u git_amit master
+  146  git checkout developer_branch 
+  147  git pull master
+  148  git pull -u master
+  149  git pull
+  150  git branch --set-upstream-to=git_amit/master developer_branch
+  151  get pull master developer_branch
+  152  git pull master developer_branch
+  153  git pull
+  154  git checkout master
+  155  git pull git_amit master
+  156  git pull git_amit master
+  157  ls
+  158  mkdir assignment
+  159  cd assignment/
+  160  ls
+  161  git --version
+  162  git init
+  163  git branch
+  164  git checkout -b devops-branch
+  165  git branch
+  166  git checkout master
+  167  cd ../GIT
+  168  git branch
+  169  cd ../assignment/
+  170  git branch
+  171  ls
+  172  rm -rf assignment/
+  173  ls
+  174  mkdir Assignment
+  175  cd Assignment/
+  176  ls
+  177  git --version
+  178  git init
+  179  git checkout -b master
+  180  git checkout -b devops-branch
+  181  git checkout -b dev-branch
+  182  git branch
+  183  git checkout master
+  184  git checkout -b master
+  185  vi amitindex.html
+  186  git add amitindex.html 
+  187  git commit -m "adding 1st file in master branch"
+  188  git branch
+  189  git checkout -b devops-branch
+  190  vi Jenkinsfile
+  191  vi Dockerfile
+  192  git add j
+  193  git add Jenkinsfile 
+  194  git add Dockerfile 
+  195  git commit -m "adding Jenkins and docker file"
+  196  git branch
+  197  git checkout -b dev-branch
+  198  git branch
+  199  git checkout master
+  200  git branch
+  201  git status
+  202  git log
+  203  git show d6af6102323b30480d4bb326e4fb0307fcf9855a
+  204  git config --global user.amitvnxr@gmail.com
+  205  git config --global user.name "Amit"
+  206  git config --global user.email "amitvnxr@gmail.com"
+  207  git branch
+  208  ls
+  209  git checkout dev-branch
+  210  ls
+  211  cd 
+  212  rm -rf Assignment
+  213  ls
+  214  ls -a
+  215  cd GIT
+  216  ls
+  217  rm -rf Assignment/
+  218  ls
+  219  mkdir Assignment
+  220  ls
+  221  cd Assignment/
+  222  ls
+  223  git init
+  224  ls
+  225  ls -a
+  226  git checkout -b master
+  227  git checkout -b Devops
+  228  git branch
+  229  ls
+  230  cd Assign
+  231  mkdir Assign
+  232  git init
+  233  git checkout -b master
+  234  echo Hi 1st file>>amit1.html
+  235  ls
+  236  cd Assign
+  237  git init
+  238  echo Hi 1st file>>amit1.html
+  239  git add amit1.html 
+  240  git commit -m "master 1st"
+  241  git checkout -b devops-branch
+  242  echo jenkins file >> jenkinsfile.txt
+  243  echo docker  file >> dockerfile.txt
+  244  git add jenkinsfile.txt 
+  245  git add dockerfile.txt 
+  246  git commit -m "devops"
+  247  git checkout master
+  248  git branch
+  249  git checkout 0b dev-branch
+  250  git checkout -b dev-branch
+  251  echo yaml file>>src1.yaml
+  252  git add src1.yaml 
+  253  git commit -m "dev 1st"
+  254  git checkout -b feature-branch
+  255  git branch
+  256  echo eatue file>>index.feature.html
+  257  git add index.feature.html 
+  258  git commit -m "feature"
+  259  git checkout dev-branch 
+  260  echo data-layer.json
+  261  echo data-layer>> data-layer.json
+  262  git add data-layer.json 
+  263  git commit -m "json"
+  264  git checkout master 
+  265  git merge devops-branch 
+  266  git merge dev-branch 
+  267  git merge dev-branch
+  268  git log
+  269  git checkout dev-branch 
+  270  git log
+  271  git status
+  272  git checkout master
+  273  git merge dev-branch 
+  274  git checkout devops-branch 
+  275  ls
+  276  vi jenkinsfile.txt 
+  277  git add jenkinsfile.txt 
+  278  git commit -m "edit jenkins"
+  279  git checkout dev-branch 
+  280  git merge feature-branch 
+  281  git checkout master
+  282  git merge devops-branch 
+  283  git merge dev-branch 
+  284  git push amit_git
+  285  git remote add origin https://github.com/amitkum2/master.git
+  286  git push -u origin master
+  287  git push -u origin master
+  288  git push -u origin master
+  289  git branch
+  290  history>> history.txt
